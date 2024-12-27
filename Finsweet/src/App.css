@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap');
+.font_inter{
+  font-family: "Inter", sans-serif;
+}
+.font_sen{
+   font-family: "Sen", sans-serif;
+}
+.nav_subscribe_btn {
+  background-color: white;
+  border: 2px solid #ffffff;
+}
+.nav_subscribe_btn:hover {
+  background-color: #232536;
+  color: white;
+}
+.herosection_bgi{
+  background-image: url(../src/assets/Png/herosection_bgi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.br_1_grey{
+  border: 1px solid #6D6E76;
+  /* padding: 32px; */
+}
+.border_1px{
+  border: 1px solid #6D6E76;
+}
+.border_1px:hover{
+  border: transparent;
+}
+.scroll_hide{
+  overflow-x: hidden;
+}
+.input_text{
+  border: 2px solid #6D6E7680
+}
+input::placeholder{
+  color: #232536;
+}
+.input_email::placeholder{
+  color: white;
+}
